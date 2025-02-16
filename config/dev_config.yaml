@@ -1,1 +1,25 @@
+# Model parameters
+width: 10
+height: 10
+input_dim: 3
+learning_rate: 0.1
+random_state: 42
 
+# Training parameters
+n_iterations: 1000
+batch_size: 32
+
+# Data parameters
+normais_data: true
+validation_split: 0.2
+
+# Visualisation parameters
+figsize: [8, 8]
+cmap: "viridis"
+save_plots: true
+plots_dir: "plots"
+
+# Logging parameters
+log_level: "INFO"
+log_file: "som_training.log"
+log_format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 

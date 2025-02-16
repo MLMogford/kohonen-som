@@ -1,0 +1,5 @@
+width: 50
+height: 50
+n_iterations: 5000
+batch_size: 64
+log_level: "WARNING" 
