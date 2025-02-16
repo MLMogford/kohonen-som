@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+
+# data
+plots/
+
+# Virtual Environment
+.env
+
+
+# IDE
+.vscode/
+.DS_Store
+
+# Testing
+.coverage
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Poetry
+poetry.lock
+
+# Logs
+*.log
+logs/
